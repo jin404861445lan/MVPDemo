@@ -16,8 +16,8 @@ public class LoginPresenterCompl implements ILoginPresenter {
     Handler handler;
 
     public LoginPresenterCompl(ILoginView iLoginView) {
-        this.iLoginView=iLoginView;
-        handler=new Handler(Looper.getMainLooper());
+        this.iLoginView = iLoginView;
+        handler = new Handler(Looper.getMainLooper());
     }
 
     @Override
@@ -27,7 +27,7 @@ public class LoginPresenterCompl implements ILoginPresenter {
 
     @Override
     public void doLogin(String name, String password) {
-
+        iLoginView.onLoginResult(true, 1);
     }
 
     @Override
