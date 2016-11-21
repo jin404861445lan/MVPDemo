@@ -35,8 +35,8 @@
 
 ##欢迎关注虚实科技微信公众号，获得最新的技术和科技资讯
 
-![](https://github.com/jin404861445lan/Images/blob/master/wx.jpg width="100" height="100")
-
+![](https://github.com/jin404861445lan/Images/blob/master/wx.jpg)
+ <img src="https://github.com/jin404861445lan/Images/blob/master/wx.jpg" width = "300" height = "300" alt="图片名称" align=center />
 
 
 
