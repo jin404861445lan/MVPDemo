@@ -32,9 +32,8 @@
 我们需要把视图抽离出来独立实现，可以定义一个接口，来限定View层必须实现的方法（这个接口定义，也就是View层的代理对象）
 
 
-===
-欢迎关注虚实科技微信公众号，获得最新的技术和科技资讯
 
+####欢迎关注虚实科技微信公众号，获得最新的技术和科技资讯
 
  <img src="https://github.com/jin404861445lan/Images/blob/master/wx.jpg" width = "300" height = "300" alt="" align=center />
 
