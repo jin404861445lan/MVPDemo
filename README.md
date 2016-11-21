@@ -25,6 +25,16 @@
 - 由图可以可以看出，Activity里面包含一个IPresenter，而PresenterCompl里面又饱含一个IView，并且倚赖了Model。Activity里只保留了对IPresenter的调用，其它工作全部留到PresenterCompl中实现
 
 
+#TheMVP实现
+
+将Activity作为Presenter来写，需要让View变得可复用，必须解决的一个问题就是setContentView（）
+
+我们需要把视图抽离出来独立实现，可以定义一个接口，来限定View层必须实现的方法（这个接口定义，也就是View层的代理对象）
+
+
+
+
+
 
 
 

@@ -24,7 +24,6 @@ public class LoginActivity extends Activity implements ILoginView, View.OnClickL
     private Button btnClear;
     ILoginPresenter loginPresenter;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,8 +50,6 @@ public class LoginActivity extends Activity implements ILoginView, View.OnClickL
 
                 break;
         }
-
-
     }
 
     @Override
